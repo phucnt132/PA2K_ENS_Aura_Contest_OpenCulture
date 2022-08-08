@@ -45,51 +45,46 @@
     text-decoration: none;
 }
 
+
 /*End: Nav*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-    background-color: rgb(213, 255, 252);
+/*Start: Header*/
+.header {
+    color: white;
 }
 
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 800px
+.header-right {
+    color: black;
 }
+
+/*End: Header*/
+
+
+
+
+
+
+
+
+
+.topCreator {
+    color: black;
+}
+
+.community {
+    color: white;
+}
+
+
+
+
+
+.footer {
+    color: white;
+}
+
 
 form {
     margin: 20px;

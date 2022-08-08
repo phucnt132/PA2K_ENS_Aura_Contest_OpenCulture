@@ -2,43 +2,215 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple NFT Auction</title>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./index-1.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Mono:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" />
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
+        <!--Start: Nav-->
         <div class="header">
-            <h1>My Simple NFT Auction</h1>
             <div class="btn-group" role="group" aria-label="Basic example">
-                <button class="btn btn-primary nav-link" id="signin">Sign In</button>
-                <button class="btn btn-primary nav-link" id="signout">Sign Out</button>
-                <button class="btn btn-primary nav-link" id="home">Home</button>
-                <button class="btn btn-primary nav-link" id="auction">Auctions</button>
-                <button class="btn btn-primary nav-link" id="mint">Mint NFT</button>
-                <button class="btn btn-primary nav-link" id="create-auction">Create Auction</button>
+                <div class="homeBtn">
+                    <a class="" id="home">OpenCulture</a>
+                </div>
+
+                <div class="centerBtn">
+                    <a class="" id="auction">
+                        Auctions
+                    </a>
+                    <a class="" id="mint">Mint NFT</a>
+                    <a class="" id="create-auction">
+                        Create Auction
+                    </a>
+                </div>
+
+
+                <div class="signBtn">
+                    <button class="" id="signin">Sign In</button>
+                    <button class="" id="signout">
+                        Sign Out
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--End: Nav-->
+
+
+        <!--Start: Header-->
+        <div class="desktop-1">
+            <div class="frame-div">
+                <img class="image-1-icon" alt="" src="public-1/image-1@2x.png" /><b class="hue-viet-nam">Hue - Viet
+                    Nam</b><img class="ellipse-icon" alt="" src="public-1/ellipse-1@2x.png" /><img class="ellipse-icon1"
+                    alt="" src="public-1/ellipse-2@2x.png" /><img class="ellipse-icon2" alt=""
+                    src="public-1/ellipse-3@2x.png" /><img class="ellipse-icon3" alt=""
+                    src="public-1/ellipse-4@2x.png" /><img class="ellipse-icon4" alt=""
+                    src="public-1/ellipse-5@2x.png" />
+                <div class="current-bid-div">Current Bid</div>
+                <div class="current-bid-div1">Current Bid</div>
+                <div class="ending-in-div">Ending In</div>
+                <div class="eth-div">0.45 ETH</div>
+                <div class="authors-div">900 Authors</div>
+                <div class="h-43m-26s">10h 43m 26s</div>
+                <img class="ellipse-icon5" alt="" src="public-1/ellipse-6@2x.png" /><img class="vector-icon" alt=""
+                    src="public-1/vector.svg" />
+            </div>
+            <img class="vector-icon1" alt="" src="public-1/vector1.svg" /><b class="welcome-to-openculture-nft-se">
+                <p class="welcome-to">
+                    <span><span>Welcome to </span></span>
+                </p>
+                <p class="openculture">
+                    <span><span>OpenCulture</span></span>
+                </p>
+                <p class="nft-sell-buy">
+                    <span><span>NFT sell & Buy</span></span>
+                </p>
+            </b>
+            <div class="frame-div1"></div>
+            <img class="vector-icon2" alt="" src="public-1/vector-1.svg" />
+            <div class="digital-marketplace-for-crypto">
+                <p class="welcome-to">Digital marketplace for crypto collections and</p>
+                <p class="non-fungible-tokens-nfts">non-fungible tokens (NFTs)</p>
+            </div>
+            <b class="k-b">35k+</b><b class="k-b1">15k+</b><b class="k-b2">25k+</b><button
+                class="image-removebg-preview-6-button"></button><img class="image-removebg-preview-12-1" alt=""
+                src="public-1/imageremovebgpreview-12-1@2x.png" /><button
+                class="image-removebg-preview-13-1"></button><img class="image-removebg-preview-7-1" alt=""
+                src="public-1/imageremovebgpreview-7-1@2x.png" />
+            <div class="nft-marketplace-div">NFT Marketplace</div>
+            <div class="viet-nam-art-nft">Viet Nam Art NFT</div>
+
+
+            <button class="frame-button2">
+                <div class="art-div">Art</div>
+            </button><button class="frame-button3">
+                <div class="videos-div">Videos</div>
+            </button>
+            <div class="frame-div2">
+                <div class="photography-div">Photography</div>
+            </div>
+            <div class="frame-div3" id="frameContainer2">
+                <div class="view-more-div">View More</div>
             </div>
 
 
+            <div class="frame-div4">
+                <b class="hoi-an-viet-nam">Hoi An - Viet Nam</b>
+                <div class="current-bid-div2">Current Bid</div>
+                <div class="ending-in-div1">Ending In</div>
+                <div class="created-by-quynh-anh">
+                    <span>Created by</span><b class="quynh-anh-b"> Quynh Anh</b>
+                </div>
+                <img class="ellipse-icon6" alt="" src="public-1/ellipse-7@2x.png" />
+                <div class="eth-div1">1.90 ETH</div>
+                <img class="ellipse-icon7" alt="" src="public-1/ellipse-6@2x.png" />
+                <div class="h-43m-26s1">10h 43m 26s</div>
+            </div>
+            <div class="frame-div5">
+                <img class="image-2-icon" alt="" src="public-1/image-2@2x.png" /><b class="hoi-an-viet-nam">Cau be ngu
+                    trua</b>
+                <div class="current-bid-div2">Current Bid</div>
+                <div class="ending-in-div1">Ending In</div>
+                <div class="created-by-quynh-anh">
+                    <span>Created by</span><b class="quynh-anh-b"> Quynh Anh</b>
+                </div>
+                <img class="ellipse-icon8" alt="" src="public-1/ellipse-7@2x.png" />
+                <div class="eth-div1">0.78 ETH</div>
+                <div class="h-43m-26s1">10h 43m 26s</div>
+                <img class="ellipse-icon7" alt="" src="public-1/ellipse-6@2x.png" />
+            </div>
+            <div class="frame-div6">
+                <img class="image-2-icon1" alt="" src="public-1/image-21@2x.png" /><b class="hoi-an-viet-nam">Mot Goc
+                    Sai Gon</b>
+                <div class="current-bid-div2">Current Bid</div>
+                <div class="ending-in-div1">Ending In</div>
+                <div class="created-by-quynh-anh">
+                    <span>Created by</span><b class="quynh-anh-b"> Quoc Khang</b>
+                </div>
+                <img class="ellipse-icon6" alt="" src="public-1/ellipse-72@2x.png" />
+                <div class="eth-div1">0.85 ETH</div>
+                <div class="h-43m-26s1">10h 43m 26s</div>
+                <img class="ellipse-icon7" alt="" src="public-1/ellipse-6@2x.png" />
+            </div>
+            <div class="frame-div7">
+                <img class="image-2-icon2" alt="" src="public-1/image-22@2x.png" /><b class="hoi-an-viet-nam">Co gai
+                    Viet Nam</b>
+                <div class="current-bid-div2">Current Bid</div>
+                <div class="ending-in-div1">Ending In</div>
+                <div class="created-by-quynh-anh">
+                    <span>Created by</span><b class="quynh-anh-b"> Trong Phuc</b>
+                </div>
+                <img class="ellipse-icon8" alt="" src="public-1/ellipse-73@2x.png" />
+                <div class="eth-div1">1.55 ETH</div>
+                <div class="h-43m-26s1">10h 43m 26s</div>
+                <img class="ellipse-icon7" alt="" src="public-1/ellipse-6@2x.png" />
+            </div>
+            <div class="frame-div8">
+                <img class="image-2-icon3" alt="" src="public-1/image-23@2x.png" /><b class="hoi-an-viet-nam">Hai thieu
+                    nu Viet Nam</b>
+                <div class="current-bid-div2">Current Bid</div>
+                <div class="ending-in-div1">Ending In</div>
+                <div class="created-by-quynh-anh">
+                    <span>Created by</span><b class="quynh-anh-b"> Hoang Khang</b>
+                </div>
+                <img class="ellipse-icon6" alt="" src="public-1/ellipse-74@2x.png" />
+                <div class="eth-div1">0.90 ETH</div>
+                <div class="h-43m-26s1">10h 43m 26s</div>
+                <img class="ellipse-icon7" alt="" src="public-1/ellipse-6@2x.png" />
+            </div>
+            <div class="frame-div9">
+                <img class="image-2-icon" alt="" src="public-1/image-24@2x.png" /><b class="hoi-an-viet-nam">Bieu tuong
+                    con rong</b>
+                <div class="current-bid-div2">Current Bid</div>
+                <div class="ending-in-div1">Ending In</div>
+                <div class="created-by-quynh-anh">
+                    <span>Created by</span><b class="quynh-anh-b"> Quoc Khang</b>
+                </div>
+                <img class="ellipse-icon8" alt="" src="public-1/ellipse-72@2x.png" />
+                <div class="eth-div1">0.95 ETH</div>
+                <div class="h-43m-26s1">10h 43m 26s</div>
+                <img class="ellipse-icon7" alt="" src="public-1/ellipse-6@2x.png" />
+            </div>
+
+            <img class="image-2-icon5" alt="" src="public-1/image-25@2x.png" /><img class="vector-icon3" alt=""
+                src="public-1/vector-3.svg" />
         </div>
+        <!--End: Header-->
+
+
+        <div class="container content"></div>
 
 
 
-        <div class=" container content">
 
 
-        </div>
+
+
+    </div>
     </div>
 
     <script type="module" src="./index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
-
 
 </html>

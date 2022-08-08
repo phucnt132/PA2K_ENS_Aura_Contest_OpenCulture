@@ -1,0 +1,655 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.openculture-div {
+  position: absolute;
+  top: 18px;
+  left: 62px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #c267e5;
+  display: inline-block;
+}
+.artist-div,
+.collection-div,
+.explore-b,
+.marketplace-div {
+  position: absolute;
+  top: 25px;
+  left: 283px;
+  font-size: 14px;
+  display: inline-block;
+  color: #e5e5e5;
+}
+.artist-div,
+.collection-div,
+.marketplace-div {
+  left: 358px;
+}
+.artist-div,
+.collection-div {
+  left: 465px;
+}
+.collection-div {
+  left: 528px;
+}
+.frame-input {
+  border: 1px solid #e5e5e5;
+  background-color: transparent;
+  position: absolute;
+  top: 18px;
+  left: 642px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 184px;
+  height: 30px;
+  overflow: hidden;
+  cursor: text;
+}
+.sign-in-b {
+  position: absolute;
+  top: 8px;
+  left: 29px;
+  font-size: 10px;
+  display: inline-block;
+  font-family: Space Grotesk;
+  color: #e5e5e5;
+  text-align: left;
+}
+.frame-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 18px;
+  left: 856px;
+  border-radius: 5px;
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.09) 15.52%,
+    #c367e6 58.75%,
+    rgba(190, 206, 239, 0)
+  );
+  width: 93px;
+  height: 30px;
+  overflow: hidden;
+}
+.discover-now-b {
+  position: absolute;
+  top: 10px;
+  left: 47px;
+  font-size: 16px;
+  display: inline-block;
+  font-family: Space Grotesk;
+  color: #e5e5e5;
+  text-align: left;
+}
+.frame-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 433px;
+  left: 60px;
+  border-radius: 5px;
+  background: linear-gradient(
+    85.76deg,
+    rgba(191, 196, 238, 0.09) 15.52%,
+    #c367e6 58.75%,
+    rgba(190, 206, 239, 0)
+  );
+  width: 199px;
+  height: 40px;
+  overflow: hidden;
+}
+.artists-b,
+.artworks-b,
+.auctions-b {
+  position: absolute;
+  top: 599px;
+  left: 67px;
+  font-size: 12px;
+  display: inline-block;
+  color: #e5e5e5;
+}
+.artists-b,
+.auctions-b {
+  left: 229px;
+}
+.artists-b {
+  left: 375px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 29px;
+  left: 25.72px;
+  border-radius: 4.89px;
+  width: 357.28px;
+  height: 370.24px;
+  object-fit: cover;
+}
+.hue-viet-nam {
+  position: absolute;
+  top: 410px;
+  left: 32px;
+  font-size: 14px;
+  display: inline-block;
+  font-family: Space Grotesk;
+}
+.ellipse-icon,
+.ellipse-icon1,
+.ellipse-icon2,
+.ellipse-icon3,
+.ellipse-icon4 {
+  position: absolute;
+  top: 410px;
+  left: 284px;
+  width: 29px;
+  height: 28px;
+  object-fit: cover;
+}
+.ellipse-icon1,
+.ellipse-icon2,
+.ellipse-icon3,
+.ellipse-icon4 {
+  left: 299px;
+}
+.ellipse-icon2,
+.ellipse-icon3,
+.ellipse-icon4 {
+  left: 319px;
+}
+.ellipse-icon3,
+.ellipse-icon4 {
+  left: 334px;
+}
+.ellipse-icon4 {
+  left: 354px;
+}
+.current-bid-div {
+  position: absolute;
+  top: 449px;
+  left: 33px;
+  color: #545c71;
+  display: inline-block;
+}
+.current-bid-div1 {
+  top: 449px;
+  left: 170px;
+  color: #545c71;
+}
+.authors-div,
+.current-bid-div1,
+.ending-in-div,
+.eth-div,
+.h-43m-26s {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.ending-in-div {
+  top: 449px;
+  left: 353px;
+  color: #545c71;
+}
+.authors-div,
+.eth-div,
+.h-43m-26s {
+  top: 463px;
+  left: 43px;
+  font-size: 10px;
+}
+.authors-div,
+.h-43m-26s {
+  left: 170px;
+}
+.h-43m-26s {
+  left: 331px;
+}
+.ellipse-icon5 {
+  position: absolute;
+  top: 466px;
+  left: 33px;
+  width: 8px;
+  height: 8px;
+  object-fit: cover;
+}
+.vector-icon {
+  position: absolute;
+  height: 1.77%;
+  width: 1.7%;
+  top: 94.13%;
+  right: 18.84%;
+  bottom: 4.1%;
+  left: 79.46%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frame-div {
+  position: absolute;
+  top: 125px;
+  left: 551px;
+  border-radius: 10px;
+  background-color: #30384d;
+  width: 404px;
+  height: 494px;
+  overflow: hidden;
+  font-size: 8px;
+  font-family: DM Mono;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 0.87%;
+  width: 1.27%;
+  top: 47.28%;
+  right: 40.04%;
+  bottom: 51.86%;
+  left: 58.69%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.openculture,
+.welcome-to {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.openculture {
+  color: #c267e4;
+}
+.nft-sell-buy {
+  margin: 0;
+  font-size: 36px;
+}
+.welcome-to-openculture-nft-se {
+  position: absolute;
+  top: 138px;
+  left: 62px;
+  display: inline-block;
+  font-size: 60px;
+}
+.frame-div1 {
+  position: absolute;
+  top: 14px;
+  left: -23px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.vector-icon2 {
+  position: absolute;
+  top: 285.5px;
+  left: 337.5px;
+  width: 124.5px;
+  height: 16.07px;
+}
+.non-fungible-tokens-nfts {
+  margin: 0;
+}
+.digital-marketplace-for-crypto {
+  position: absolute;
+  top: 381px;
+  left: 62px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: Poppins;
+  display: inline-block;
+}
+.k-b,
+.k-b1,
+.k-b2 {
+  position: absolute;
+  top: 554px;
+  left: 62px;
+  font-size: 36px;
+  display: inline-block;
+}
+.k-b1,
+.k-b2 {
+  left: 220px;
+}
+.k-b2 {
+  left: 363px;
+}
+.image-removebg-preview-6-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 743px;
+  left: 272px;
+  width: 135.71px;
+  height: 50px;
+  background-image: url(./public-1/imageremovebgpreview6@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image-removebg-preview-12-1 {
+  position: absolute;
+  top: 743px;
+  left: 450px;
+  width: 135.71px;
+  height: 50px;
+  object-fit: cover;
+}
+.image-removebg-preview-13-1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 743px;
+  left: 817px;
+  width: 135.71px;
+  height: 50px;
+  background-image: url(./public-1/imageremovebgpreview131@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.image-removebg-preview-7-1 {
+  position: absolute;
+  top: 743px;
+  left: 635px;
+  width: 135.71px;
+  height: 50px;
+  object-fit: cover;
+}
+.art-div,
+.nft-marketplace-div,
+.viet-nam-art-nft {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.nft-marketplace-div {
+  top: 849px;
+  left: 467px;
+  font-family: DM Mono;
+  background: linear-gradient(180deg, #9c76b8, rgba(156, 118, 184, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.art-div,
+.viet-nam-art-nft {
+  top: 875px;
+  left: 433px;
+  font-size: 20px;
+}
+.art-div {
+  top: 10px;
+  left: 29px;
+  font-size: 10px;
+  font-family: DM Mono;
+  color: #fff;
+  text-align: left;
+}
+.frame-button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #3d2a3d;
+  position: absolute;
+  top: 920px;
+  left: 162px;
+  border-radius: 5px;
+  width: 76px;
+  height: 33px;
+  overflow: hidden;
+}
+.videos-div {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: DM Mono;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+}
+.frame-button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #30384d;
+  position: absolute;
+  top: 920px;
+  left: 781px;
+  border-radius: 5px;
+  width: 76px;
+  height: 33px;
+  overflow: hidden;
+}
+.photography-div {
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frame-div2 {
+  position: absolute;
+  top: 920px;
+  left: 444px;
+  border-radius: 5px;
+  background-color: #30384d;
+  width: 136px;
+  height: 33px;
+  overflow: hidden;
+  font-family: DM Mono;
+}
+.view-more-div {
+  position: absolute;
+  top: 10px;
+  left: 38px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frame-div3 {
+  position: absolute;
+  top: 1775px;
+  left: 441px;
+  border-radius: 5px;
+  background-color: #30384d;
+  width: 141px;
+  height: 33px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 12px;
+  font-family: DM Mono;
+}
+.hoi-an-viet-nam {
+  position: absolute;
+  top: 246px;
+  left: 27px;
+  display: inline-block;
+  font-family: Space Grotesk;
+}
+.current-bid-div2,
+.ending-in-div1 {
+  position: absolute;
+  top: 287px;
+  left: 27px;
+  font-size: 8px;
+  color: #545c71;
+  display: inline-block;
+}
+.ending-in-div1 {
+  top: 289px;
+  left: 200px;
+}
+.quynh-anh-b {
+  font-size: 12px;
+}
+.created-by-quynh-anh {
+  position: absolute;
+  top: 263px;
+  left: 27px;
+  display: inline-block;
+  font-family: Space Grotesk;
+}
+.ellipse-icon6 {
+  position: absolute;
+  top: 241px;
+  left: 215px;
+  width: 29px;
+  height: 28px;
+  object-fit: cover;
+}
+.eth-div1 {
+  position: absolute;
+  top: 300px;
+  left: 37px;
+  font-weight: 500;
+  display: inline-block;
+}
+.ellipse-icon7 {
+  position: absolute;
+  top: 302px;
+  left: 27px;
+  width: 8px;
+  height: 8px;
+  object-fit: cover;
+}
+.h-43m-26s1 {
+  position: absolute;
+  top: 300px;
+  left: 187px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frame-div4 {
+  position: absolute;
+  top: 1004px;
+  left: 60px;
+  border-radius: 5px;
+  background-color: #30384d;
+  width: 281px;
+  height: 323px;
+  overflow: hidden;
+  font-family: DM Mono;
+}
+.ellipse-icon8,
+.image-2-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.image-2-icon {
+  top: 21px;
+  left: 21px;
+  border-radius: 5.22px;
+  width: 219px;
+  height: 214px;
+}
+.ellipse-icon8 {
+  top: 246px;
+  left: 215px;
+  width: 29px;
+  height: 28px;
+}
+.frame-div5 {
+  position: absolute;
+  top: 1385px;
+  left: 60px;
+  border-radius: 5px;
+  background-color: #30384d;
+  width: 281px;
+  height: 323px;
+  overflow: hidden;
+  font-family: DM Mono;
+}
+.image-2-icon1 {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  border-radius: 5.22px;
+  width: 219px;
+  height: 214px;
+  object-fit: cover;
+}
+.frame-div6 {
+  position: absolute;
+  top: 1004px;
+  left: 370px;
+  border-radius: 5px;
+  background-color: #30384d;
+  width: 281px;
+  height: 323px;
+  overflow: hidden;
+  font-family: DM Mono;
+}
+.image-2-icon2 {
+  position: absolute;
+  top: 20px;
+  left: 21px;
+  border-radius: 5.22px;
+  width: 219px;
+  height: 214px;
+  object-fit: cover;
+}
+.frame-div7 {
+  position: absolute;
+  top: 1385px;
+  left: 370px;
+  border-radius: 5px;
+  background-color: #30384d;
+  width: 281px;
+  height: 323px;
+  overflow: hidden;
+  font-family: DM Mono;
+}
+.image-2-icon3 {
+  position: absolute;
+  top: 16px;
+  left: 21px;
+  border-radius: 5.22px;
+  width: 219px;
+  height: 214px;
+  object-fit: cover;
+}
+.frame-div8,
+.frame-div9 {
+  position: absolute;
+  top: 1004px;
+  left: 679px;
+  border-radius: 5px;
+  background-color: #30384d;
+  width: 281px;
+  height: 323px;
+  overflow: hidden;
+  font-family: DM Mono;
+}
+.frame-div9 {
+  top: 1385px;
+}
+.image-2-icon5 {
+  position: absolute;
+  top: 1019px;
+  left: 87px;
+  border-radius: 5.13px;
+  width: 219px;
+  height: 214px;
+  object-fit: cover;
+}
+.vector-icon3 {
+  position: absolute;
+  top: 1017.5px;
+  left: 286.13px;
+  width: 452.23px;
+  height: 682.95px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: #1c233d;
+  width: 100%;
+  height: 1863px;
+  text-align: left;
+  font-size: 10px;
+  color: #fff;
+  font-family: Space Grotesk;
+}

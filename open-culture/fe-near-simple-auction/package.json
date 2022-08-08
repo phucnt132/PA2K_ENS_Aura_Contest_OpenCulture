@@ -5,6 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "near-api-js": "^0.43.1",
+        "react-scripts": "^5.0.1",
         "regenerator-runtime": "^0.13.9"
     },
     "devDependencies": {

@@ -3,9 +3,13 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    background-color: #1c233d;
+    
+}
 .container-fluid {
     background-color: #1c233d;
+    width: 100vh;
 }
 
 
@@ -151,36 +155,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 form {
     margin: 20px;
     width: 80%;
@@ -191,6 +165,7 @@ form {
     width: 320px;
     height: 650px;
     align-items: center;
+   
 }
 
 p,

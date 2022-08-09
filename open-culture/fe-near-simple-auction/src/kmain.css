@@ -118,7 +118,9 @@ color: #FFFFFF;
 
 }
 
-
+.text-left{
+    height: auto;
+}
 .btn-primary-k{
 box-sizing: border-box;
 width: 199px;
@@ -143,3 +145,88 @@ font-size: 16px;
 line-height: 20px;
 color: #FFFFFF;
 }
+
+.kcss-right-main-pic{
+    margin-top: 50px;
+}
+
+.kcss-right-main-pic{
+    display: inline-flex;
+    justify-content: center;
+  
+width: 404px;
+height: 494px;
+background: #30384D;
+border-radius: 10px;
+}
+.card-img-top-k{
+    /* image 1 */
+    position: relative;
+box-sizing: border-box;
+width: 357.28px;
+height: 370.24px;
+margin-top:29px;
+
+background: url(public-1/image-25@2x.png);
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 4.89425px;
+
+}
+.card-title{
+/* Hue - Viet Nam */
+width: 98px;
+height: 18px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+
+
+}
+
+.card-image-k{
+
+width: auto ;
+height: 28px;
+}
+.image-k{
+
+    width: 28px;
+    height: 28x;
+ margin-left: -18px;
+    vertical-align: unset;
+        
+}
+.card-body-title{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body-k{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

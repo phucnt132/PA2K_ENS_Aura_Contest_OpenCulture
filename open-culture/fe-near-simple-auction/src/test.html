@@ -1,25 +1,26 @@
-<div class="card-header-k">
-  <p class="token-id-k">Token ID: ${nft.token_id}</p>
-  <h3 class="card-title">${nft.metadata.title}</h3>
-  <div class="owner">
-    <p class="author-detail-k">Owner ID:</p>
-    <p class="nft-owner-id">${nft.owner_id}</p>
+<form id="mint-form">
+  <div class="form-group">
+      <div for="tokenId" class="text-css-color" style="
+      color: white;
+      font-style: Space Grotesk;">Token ID</div>
+      <input type="text" class="form-control form-control-k" id="token-id" placeholder="Token ID">
   </div>
-  <p class="card-description-k">${nft.metadata.description}</p>
-</div>
+  <div class="form-group">
+      <div for="tokenOwnerId" class="text-css-color">Token Owner ID</div>
+      <input type="text" class="form-control" id="token-owner-id" placeholder="Token Owner ID">
+  </div>
+  <div class="form-group">
+      <div for="title" class="text-css-color">Token Title</div>
+      <input type="text" class="form-control" id="title" placeholder="Title">
+  </div>
+  <div class="form-group">
+      <div for="description">Description</div>
+      <input type="text" class="form-control" id="description" placeholder="Description">
+  </div>
+  <div class="form-group">
+      <div for="media" class="text-css-color">Token URI</div>
+      <input type="text" class="form-control" id="media" placeholder="Token URI">
+  </div>
 
-<div class="card-content">
-  <div class="card-img-k">
-    <img src="${data.image}" />
-  </div>
-  <div class="ending-current">
-    <div class="current-block-k">
-      <div class="text-detail-k nft-ending-k">Current Bid</div>
-      <div class="text-detail-number-k">0.90 ETH</div>
-    </div>
-    <div class="ending-block-k">
-      <div class="text-detail-k nft-ending-k">Ending In</div>
-      <div class="text-detail-number-k">10h 43m 26s</div>
-    </div>
-  </div>
-</div>
+  <button type="submit" class="btn btn-primary">Mint</button>
+</form>

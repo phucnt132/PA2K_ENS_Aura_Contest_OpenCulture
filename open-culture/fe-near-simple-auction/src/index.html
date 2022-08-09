@@ -28,14 +28,14 @@
     <!--Start: Nav-->
     <div class="headerk">
       <div class="btn-group" role="group" aria-label="Basic example">
-        <div class="homeBtn">
-          <a class="" id="home" class="mainname">OpenCulture</a>
+        <div class="homeBtn" id="home">
+          <a class=""  class="mainname">OpenCulture</a>
         </div>
 
-        <div class="centerBtn">
-          <a class="header-button-k" id="auction"> Auctions </a>
-          <a class="header-button-k" id="mint">Mint NFT</a>
-          <a class="header-button-k" id="create-auction"> Create Auction </a>
+        <div class="centerBtn-k">
+          <div class="header-button-k" id="auction"> Auctions </div>
+          <div class="header-button-k" id="mint">Mint NFT</div>
+          <div class="header-button-k" id="create-auction"> Create Auction </div>
         </div>
 
         <div class="signBtn">
@@ -61,7 +61,11 @@
     <!--End: Nav-->
 
     <!--Start: Header-->
-    <div class="row header">
+    <div class="row config-row" style="
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+">
       <div class="col-md-6 header-left">
         <div class="content-header">
           <h3 class="kwelcome-text">Welcome to</h3>
@@ -162,7 +166,7 @@
     </div>
 
     <!--Start: Load Content-->
-    <div class="content-aution "></div>
+    <div class="content-aution"></div>
     <div class="block-container-k content container-k"></div>
 
     <div class="more-button" id="more-button-id">

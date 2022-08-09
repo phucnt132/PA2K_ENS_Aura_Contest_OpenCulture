@@ -51,32 +51,35 @@ const getTokenData = async (tokenId) => {
 };
 
 const renderMint = async () => {
-  document.querySelector(".content").innerHTML = `
+ 
+  document.querySelector(".content").innerHTML = ``
+  document.querySelector(".content-aution").innerHTML = ``
+  document.querySelector(".content-aution").innerHTML = `
     <form id="mint-form">
     <div class="form-group">
         <div for="tokenId" class="text-css-color" style="
         color: white;
         font-style: Space Grotesk;">Token ID</div>
-        <input  type="text" class="form-control" id="token-id" placeholder="Token ID">
+        <input  type="text" class="form-control-k" id="token-id" placeholder="Token ID">
     </div>
     <div class="form-group">
         <div for="tokenOwnerId" class="text-css-color">Token Owner ID</div>
-        <input type="text" class="form-control" id="token-owner-id" placeholder="Token Owner ID">
+        <input type="text" class="form-control-k" id="token-owner-id" placeholder="Token Owner ID">
     </div>
     <div class="form-group" >
         <div for="title" class="text-css-color">Token Title</div>
-        <input type="text" class="form-control" id="title" placeholder="Title">
+        <input type="text" class="form-control-k" id="title" placeholder="Title">
     </div>
     <div class="form-group">
-        <div for="description">Description</div>
-        <input type="text" class="form-control" id="description" placeholder="Description">
+        <div for="description" class="text-css-color">Description</div>
+        <input type="text" class="form-control-k" id="description" placeholder="Description">
     </div>
     <div class="form-group">
         <div for="media" class="text-css-color">Token URI</div>
-        <input type="text" class="form-control" id="media" placeholder="Token URI">
+        <input type="text" class="form-control-k" id="media" placeholder="Token URI">
     </div>
 
-    <button type="submit" class="btn btn-primary">Mint</button>
+    <button type="submit" class="mint-button-nft"><div class="mint-button-text">Mint</div></button>
 </form>
     `;
   document.querySelector("#mint-form").addEventListener("submit", async (e) => {
@@ -111,6 +114,7 @@ const renderMint = async () => {
 const renderCreateAuction = async () => {
   document.querySelector("#more-button-id").innerHTML = ``
   document.querySelector(".content").innerHTML = ``
+  document.querySelector(".content-aution").innerHTML = ` `
   document.querySelector(".content-aution").innerHTML = `
     <form id="create-auction-form">
     <div class="form-group">
@@ -174,7 +178,7 @@ const renderHome = async () => {
   const totalSupply = parseInt(await contract.nft_total_supply());
   let limit = totalSupply > 6 ? 6 : totalSupply;
   let nfts = await contract.nft_tokens({ from_index: "0", limit: limit });
-  document.querySelector(".content").innerHTML = "";
+  document.querySelector(".content-aution").innerHTML = "";
   nfts.forEach(async (nft, index) => {
     console.log(nft);
     let response = await fetch(nft.metadata.media);
@@ -219,14 +223,26 @@ const renderHome = async () => {
 };
 const renderAuction = async () => {
   try {
-    document.querySelector(".content").innerHTML = `
-            <div style="width: 100%; margin: 20px;" class="bid-control">
-                <input type="text" id="auction-id" placeholder="Auction ID">
-                <input type="text" id="bid-price" placeholder="Bid Price">
-                <button class="btn btn-primary" id="bid" class="bid">Bid</button>
-                <br />
-                <input type="text" id="auction-id-claim" placeholder="Auctiodn ID">
-                <button class="btn btn-primary" id="claim-nft">Claim NFT</button>
+    document.querySelector(".content").innerHTML = ``
+    document.querySelector(".content-aution").innerHTML = ` `
+    document.querySelector(".content-aution").innerHTML = `
+            <div class="aution-box-all ">
+              <div style="width: 100%; margin: 20px;" class="bid-control">
+                  <div class="custom-control-box">
+                    <input type="text" class="form-control-k custom-control" id="auction-id" placeholder="Auction ID">
+                    <input type="text" class="form-control-k custom-control " id="bid-price" placeholder="Bid Price">
+                    <button class="btn btn-primary" id="bid" class="bid">Bid</button>
+                    </div>
+                
+                 
+                  <div class="custom-control-claim">
+                    <input type="text" id="auction-id-claim" class="form-control-k custom-control " placeholder="Auctiodn ID">
+                    <button class="btn btn-primary" id="claim-nft">Claim NFT</button>
+                  </div>
+              </div>
+              <div class="list-card-render-aution">
+              
+              </div>
             </div>
             `;
     for (let i = 0; i < 10; i++) {
@@ -241,24 +257,30 @@ const renderAuction = async () => {
       }
       console.log(token);
       let card = document.createElement("div");
-      card.className = "card";
+      card.className = "card-k";
       card.innerHTML = `
-                    <div class="card-header">
-                        <p>Auction ID: ${auction.auction_id}</p>
-                        <p class="token-id">Token ID: ${
+                    <div class="card-header-k">
+                        <p class="token-id-k">Auction ID: ${auction.auction_id}</p>  
+                        <p class="token-id-k">Token ID: ${
                           auction.auction_token
                         }</p>
-                        <h3 class="card-title">Title: ${
+                        <h3 class="card-title card-title-k">Title: ${
                           token.metadata.title
                         }</h3>
-                        <p class="owner"> Owner ID: ${auction.owner}</p>
-                        <p class="current-price">Current Price: ${
+                     
+
+
+                        <div class="owner">
+                        <p class="author-detail-k">Owner ID:</p>
+                        <div class="nft-owner-id"> ${auction.owner}</div>
+                      </div>
+                        <p class="token-id-k">Current Price: ${
                           auction.current_price / 10 ** 24
                         } NEAR</p>
-                        <p class="current-winner">Current winner: ${
+                        <p class=" token-id-k">Current winner: ${
                           auction.winner || "no winner"
                         }</p>
-                        <p class="end-time">End: ${new Date(
+                        <p class="token-id-k">End: ${new Date(
                           auction.end_time / 1_000_000
                         )}</p>
                     </div>
@@ -269,7 +291,7 @@ const renderAuction = async () => {
                     </div>
 
                 `;
-      document.querySelector(".content").appendChild(card);
+      document.querySelector(".list-card-render-aution").appendChild(card);
     }
   } catch (err) {
     console.log(err);
@@ -295,3 +317,4 @@ const renderAuction = async () => {
   };
 };
 setTimeout(renderHome);
+console.log("asdfasdfasdfd")

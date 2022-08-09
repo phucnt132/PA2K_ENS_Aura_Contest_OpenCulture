@@ -282,11 +282,71 @@ color: #FFFFFF;
     padding-left: 5px;
 }
 
+.card-k{
+    
+
+width: 290px;
+height: auto;
+
+display: inline-flex;
+align-items: center;
+background: #30384D;
+border-radius: 5px;
+flex-direction: column;
+}
+.card-header-k{
+    height: auto;
+    width: 100%;
+}
+.card-description-k{
+text-align: center;
+width: auto;
+height: 20;
+left: calc(50% - 82px/2 - 72.5px);
+top: 246px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+
+color: #FFFFFF;
 
 
+}
 
+.container-k{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: unset;
+    width: 100vh;
+}
+.card-img-k{
+padding-bottom: 10px;
+width: 250px;
+height: auto;
+border-radius: 5.131px;
 
+}
+.token-id-k{
+width: 100%;
+text-align: left;
+width: auto;
+height: 20;
 
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 13px;
+/* identical to box height */
+color: #FFFFFF;
+
+}
 
 
 

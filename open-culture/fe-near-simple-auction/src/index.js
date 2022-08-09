@@ -170,16 +170,16 @@ const renderHome = async () => {
       console.log(data.image);
     }
     let card = document.createElement("div");
-    card.className = "card";
+    card.className = "card-k";
     card.innerHTML = `
-            <div class="card-header">
-                <p>Token ID: ${nft.token_id}</p>
+            <div class="card-header-k">
+                <p class="token-id-k" >Token ID: ${nft.token_id}</p>
                 <h3 class="card-title">${nft.metadata.title}</h3>
                 <p class="owner"> Owner ID: ${nft.owner_id}<p>
-                <p class="card-description">${nft.metadata.description}</p>
+                <p class="card-description-k">${nft.metadata.description}</p>
             </div>
             <div class="card-content">
-                <div class="card-img">
+                <div class="card-img-k">
                     <img  src="${data.image}" />
                 </div>
             </div>

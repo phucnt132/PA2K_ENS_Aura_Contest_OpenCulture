@@ -51,6 +51,11 @@ color: #C267E5;
     grid-template-columns: auto auto auto ;
 
 }
+
+.mint-button-nft{
+    justify-self: center;
+}
+
 .ksign-button,
 .mint-button-nft,
 .ksignout-button{
@@ -429,6 +434,23 @@ background-clip: text;
 
 
 }
+
+#auction-id,
+#bid-price,
+#auction-id-claim{
+    color:white;
+}
+
+.mint-button-box{
+    width: auto;
+    display: flex;
+    justify-self: unset;
+    justify-self: center;
+    justify-content: center;
+
+}
+
+
 .custom-control-claim,
 .custom-control-box{
     width: auto;
@@ -440,8 +462,30 @@ background-clip: text;
     justify-content: center;
     align-items: flex-end;
     display: flex;
+    color: white;
 
 }
+
+.text-checking-k{
+   
+  
+width: auto;
+height: auto;
+
+
+background: #30384D;
+border-radius: 5px;
+}
+
+.text-checking{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    column-gap: 20px;
+}
+
 .custom-control,
 .custom-control-claim{
     justify-content: center;
@@ -465,6 +509,9 @@ background-clip: text;
     width: unset;
     width: 100%;
     justify-content: center;
+}
+.list-card-render-aution{
+    padding-top: 30px;
 }
 .card-img-k{
 padding-bottom: 10px;

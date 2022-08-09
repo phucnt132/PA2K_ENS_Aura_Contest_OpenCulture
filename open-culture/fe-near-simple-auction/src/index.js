@@ -79,7 +79,7 @@ const renderMint = async () => {
         <input type="text" class="form-control-k" id="media" placeholder="Token URI">
     </div>
 
-    <button type="submit" class="mint-button-nft"><div class="mint-button-text">Mint</div></button>
+    <div class="mint-button-box"><button type="submit" class="mint-button-nft"><div class="mint-button-text">Mint</div></button></div>
 </form>
     `;
   document.querySelector("#mint-form").addEventListener("submit", async (e) => {

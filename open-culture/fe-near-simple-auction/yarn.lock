@@ -1542,6 +1542,20 @@
   dependencies:
     "chalk" "^4.1.0"
 
+"@parcel/compressor-brotli@^2.7.0":
+  "integrity" "sha512-dXyV/jXS2fqhU9Uj+29xPt/txTXnSJcvUtjo3R8cjKbJYK2vu4e1s0QCo5rndpCYgbYKevwNdHmIuxN2us+A3Q=="
+  "resolved" "https://registry.npmjs.org/@parcel/compressor-brotli/-/compressor-brotli-2.7.0.tgz"
+  "version" "2.7.0"
+  dependencies:
+    "@parcel/plugin" "2.7.0"
+
+"@parcel/compressor-gzip@^2.7.0":
+  "integrity" "sha512-k4qwF7i+2ouGAyjXfCeeT8nEcSAXQVPdF0eG35pZeMsT+vrQ1+MI1L3AwBhLIuXRPXDMv47Eqx+KTsatP9gVmg=="
+  "resolved" "https://registry.npmjs.org/@parcel/compressor-gzip/-/compressor-gzip-2.7.0.tgz"
+  "version" "2.7.0"
+  dependencies:
+    "@parcel/plugin" "2.7.0"
+
 "@parcel/compressor-raw@2.7.0":
   "integrity" "sha512-SCXwnOOQT6EmpusBsYWNQ/RFri+2JnKuE0gMSf2dROl2xbererX45FYzeDplWALCKAdjMNDpFwU+FyMYoVZSCQ=="
   "resolved" "https://registry.npmjs.org/@parcel/compressor-raw/-/compressor-raw-2.7.0.tgz"
@@ -1844,6 +1858,15 @@
   "version" "2.7.0"
   dependencies:
     "@parcel/types" "2.7.0"
+
+"@parcel/reporter-bundle-analyzer@^2.7.0":
+  "integrity" "sha512-bPvI+cF0cRXekGsavjemvYCFVsOW6XSNELHSb/b38oTPBE5zAhkDkk4ZNC0neIYqtxcOk/NMZZ4V7XPncddGVg=="
+  "resolved" "https://registry.npmjs.org/@parcel/reporter-bundle-analyzer/-/reporter-bundle-analyzer-2.7.0.tgz"
+  "version" "2.7.0"
+  dependencies:
+    "@parcel/plugin" "2.7.0"
+    "@parcel/utils" "2.7.0"
+    "nullthrows" "^1.1.1"
 
 "@parcel/reporter-cli@2.7.0":
   "integrity" "sha512-80gEODg8cnAmnxGVuaSVDo8JJ54P9AA2bHwSs1cIkHWlJ3BjDQb83H31bBHncJ5Kn5kQ/j+7WjlqHpTCiOR9PA=="
@@ -8766,7 +8789,7 @@
     "source-map" "^0.6.0"
 
 "source-map@^0.5.0":
-  "integrity" "sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w= sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ=="
+  "integrity" "sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz"
   "version" "0.5.7"
 
@@ -8780,7 +8803,7 @@
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
 
-"source-map@^0.7.3":
+"source-map@^0.7.3", "source-map@^0.7.4", "source-map@~0.7.2":
   "integrity" "sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.7.4.tgz"
   "version" "0.7.4"
@@ -8801,11 +8824,6 @@
   "integrity" "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g=="
   "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
   "version" "0.6.1"
-
-"source-map@~0.7.2":
-  "integrity" "sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ=="
-  "resolved" "https://registry.npmjs.org/source-map/-/source-map-0.7.3.tgz"
-  "version" "0.7.3"
 
 "sourcemap-codec@^1.4.8":
   "integrity" "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA=="

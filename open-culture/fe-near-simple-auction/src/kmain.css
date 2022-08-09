@@ -341,11 +341,12 @@ color: #dddddd;
 
 .container-k{
     display: inline-grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 300px 300px 300px;
     column-gap: 20px;
     row-gap: 20px;
     width: unset;
     width: 100%;
+    justify-content: space-evenly;
 }
 .card-img-k{
 padding-bottom: 10px;
@@ -383,8 +384,32 @@ height: 33px;
 
 background: #30384D;
 border-radius: 5px;
+border: none;
 
 }
+.more-button{
+    width: auto ;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.view-more{
+
+
+font-family: 'DM Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
 .container-k{
     width: 100%;
 }

@@ -63,9 +63,10 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 13px;
+
 /* identical to box height */
 
-color: #E5E5E5;
+color: #FFFFFF;
 }
 .kwelcome-text{
     display: flex;

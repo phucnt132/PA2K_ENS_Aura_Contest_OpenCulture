@@ -431,17 +431,30 @@ background-clip: text;
 }
 .custom-control-claim,
 .custom-control-box{
-    width: 400px;
+    width: auto;
+    display: flex;
+    justify-content: end;
 }
+.custom-control-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
 
-.custom-control{
-    width: unset;
-    width: 80px;
+}
+.custom-control,
+.custom-control-claim{
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
 }
 .bid-control{
+    width: auto;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    
+    justify-content: space-evenly;
+
 }
 .list-card-render-aution,
 .container-k{
@@ -678,5 +691,6 @@ font-style: italic;
 }
 .aution-box-all{
     width: 100%;
+    display: inline-block;
     height: auto;
 }

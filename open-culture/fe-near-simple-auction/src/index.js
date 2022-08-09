@@ -227,17 +227,17 @@ const renderAuction = async () => {
     document.querySelector(".content-aution").innerHTML = ` `
     document.querySelector(".content-aution").innerHTML = `
             <div class="aution-box-all ">
-              <div style="width: 100%; margin: 20px;" class="bid-control">
+              <div  class="bid-control">
                   <div class="custom-control-box">
                     <input type="text" class="form-control-k custom-control" id="auction-id" placeholder="Auction ID">
                     <input type="text" class="form-control-k custom-control " id="bid-price" placeholder="Bid Price">
-                    <button class="btn btn-primary" id="bid" class="bid">Bid</button>
+                    <button class="btn btn-primary-k" id="bid" class="bid">Bid</button>
                     </div>
                 
                  
                   <div class="custom-control-claim">
                     <input type="text" id="auction-id-claim" class="form-control-k custom-control " placeholder="Auctiodn ID">
-                    <button class="btn btn-primary" id="claim-nft">Claim NFT</button>
+                    <button class="btn btn-primary-k" id="claim-nft">Claim NFT</button>
                   </div>
               </div>
               <div class="list-card-render-aution">

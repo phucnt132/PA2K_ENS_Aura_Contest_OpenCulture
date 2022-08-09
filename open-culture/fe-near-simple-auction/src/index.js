@@ -54,23 +54,25 @@ const renderMint = async () => {
   document.querySelector(".content").innerHTML = `
     <form id="mint-form">
     <div class="form-group">
-        <label for="tokenId">Token ID</label>
+        <div for="tokenId" class="text-css-color" style="
+        color: white;
+        font-style: Space Grotesk;">Token ID</div>
         <input  type="text" class="form-control" id="token-id" placeholder="Token ID">
     </div>
     <div class="form-group">
-        <label for="tokenOwnerId">Token Owner ID</label>
+        <div for="tokenOwnerId" class="text-css-color">Token Owner ID</div>
         <input type="text" class="form-control" id="token-owner-id" placeholder="Token Owner ID">
     </div>
-    <div class="form-group">
-        <label for="title">Token Title</label>
+    <div class="form-group" >
+        <div for="title" class="text-css-color">Token Title</div>
         <input type="text" class="form-control" id="title" placeholder="Title">
     </div>
     <div class="form-group">
-        <label for="description">Description</label>
+        <div for="description">Description</div>
         <input type="text" class="form-control" id="description" placeholder="Description">
     </div>
     <div class="form-group">
-        <label for="media">Token URI</label>
+        <div for="media" class="text-css-color">Token URI</div>
         <input type="text" class="form-control" id="media" placeholder="Token URI">
     </div>
 
@@ -107,23 +109,32 @@ const renderMint = async () => {
 };
 
 const renderCreateAuction = async () => {
+  document.querySelector("#more-button-id").innerHTML = ``
   document.querySelector(".content").innerHTML = ``
   document.querySelector(".content-aution").innerHTML = `
     <form id="create-auction-form">
     <div class="form-group">
-        <label class="for-text-main-k" for="tokenId">Token ID</label>
-        <input type="text" class="form-control-k" id="token-id" placeholder="Token ID">
+        <label class="for-text-main-k" for="tokenId" style="
+        color: #a8a8a8;
+        font-style: Space Grotesk;">Token ID</label>
+        <input type="text" class="form-control-k" id="token-id" placeholder="input your token id...">
     </div>
     <div class="form-group">
-        <label for="start-price">Start Price</label>
-        <input type="text" class="form-control-k" id="start-price" placeholder="Start Price">
+        <label class="for-text-main-k" for="start-price" style="
+        color: #a8a8a8;
+        font-style: Space Grotesk;">Start Price</label>
+        <input type="text" class="form-control-k" id="start-price" placeholder="input your start price...">
     </div>
     <div class="form-group">
-        <label for="start-time">Start Time</label>
+        <label class="for-text-main-k" for="start-time" style="
+        color: #a8a8a8;
+        font-style: Space Grotesk;" >Start Time</label>
         <input type="datetime-local" class="form-control-k" id="start-time" placeholder="Start Time">
     </div>
     <div class="form-group">
-        <label for="end-time">End Time</label>
+        <label class="for-text-main-k" for="end-time" style="
+        color: #a8a8a8;
+        font-style: Space Grotesk;">End Time</label>
         <input type="datetime-local" class="form-control-k" id="end-time" placeholder="End Time">
     </div>
 

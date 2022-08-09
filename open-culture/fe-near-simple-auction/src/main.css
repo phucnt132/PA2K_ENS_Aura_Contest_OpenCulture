@@ -69,8 +69,9 @@ body{
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto;
+    grid-template-rows: auto;
 }
 
 
@@ -215,29 +216,6 @@ body{
 
 
 /*End: User interacting/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

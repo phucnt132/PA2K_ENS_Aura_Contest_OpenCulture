@@ -46,15 +46,17 @@ position: relative
 
 
 /* Sign in */
-
+overflow: hidden;
 width: 100%;
-height: 13px;
-
-
+height: 100%;
+display: inline-flex;
+align-items: center;
+text-align: center;
+justify-content: center;
 font-family: 'Space Grotesk';
 font-style: normal;
 font-weight: 700;
-font-size: 10px;
+font-size: 14px;
 line-height: 13px;
 /* identical to box height */
 
@@ -534,18 +536,31 @@ padding-left: 2px;
 }
 .form-control-k{
     /* Frame 1 */
-
 box-sizing: border-box;
-
-
-width: 80%;
-height: 30px;
-
-
-border: 1px solid #E5E5E5;
+border: 1px solid #793bff;
 border-radius: 5px;
+width: 500px;
+background-color: #30384D;
 }
-
+::placeholder{
+    color: #FFFFFF;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.sign-in-text-k{
+    margin-top: unset;
+    margin-top: 2px;
+}
+#logon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 5px;
+}
+.more-respone{
+    font-size: unset;
+    font-size: 15px;
+}
 .form-group{
     display: flex;
     justify-content: center;

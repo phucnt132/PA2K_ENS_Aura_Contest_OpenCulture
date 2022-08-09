@@ -94,7 +94,7 @@ color: #FFFFFF;
 }
 .content-header{
     width: 364px;
-height: 193px;
+height: auto;
 padding-left: 40px;
 }
 .col-md-6 {
@@ -105,7 +105,7 @@ padding-left: 40px;
 
 
 width: 300px;
-height: 40px;
+height: auto;
 
 
 font-family: 'Poppins';
@@ -113,7 +113,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 13px;
 line-height: 20px;
-
+padding-top:50px;
 color: #FFFFFF;
 
 }
@@ -258,8 +258,16 @@ color: #FFFFFF;
     text-align: unset;
     text-align: end;
 }
+.statistic-number{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 81px;
+}
 
-
+.statistic-number-item{
+    width: auto;
+}
 
 
 

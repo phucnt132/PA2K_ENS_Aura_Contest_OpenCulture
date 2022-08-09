@@ -24,3 +24,11 @@ color: #C267E5;
     display: grid;
     width: 100%;
 }
+.signin,
+.signout{
+width: 93px;
+height: 30px;
+background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+border-radius: 5px;
+
+}

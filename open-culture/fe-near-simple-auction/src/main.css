@@ -29,12 +29,6 @@ body{
 /*End: Common*/
 
 
-
-
-
-
-
-
 /*Start: Nav*/
 .homeBtn {
     background-color: #1c233d;
@@ -82,8 +76,6 @@ body{
 
 /*End: Nav*/
 
-
-
 /*Start: Header*/
 .header {
     color: white;
@@ -101,6 +93,7 @@ body{
 .footer {
     margin-top: 48px;
     padding: 0 48px;
+    color: white;
 }
 
 .footer-header {
@@ -123,7 +116,7 @@ body{
     text-align: center;
 }
 
-.footer-item a{
+.footer-item a {
     display: block;
     color: #fff;
 
@@ -136,28 +129,122 @@ body{
 /*End: Footer*/
 
 
+/*Start: Community*/
+.community {
+    background-color: rgba(30, 43, 75, 0.8);
+    color: white;
+    padding: 32px 0;
+    margin: 32px 0;
+}
+
+/*End: Community*/
 
 
-
+/*Start: TopCreator*/
 .topCreator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
 }
 
-/* khang đã code o day */
-.community {
+.topCreator-item {
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(30,41,72,.7);
+    height: 84px;
+    margin: 12px 0;
+}
+
+.videoBtn {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.nftCreator {
+    color: #C267E4;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*End: TopCreator*/
+
+/*Start: User interacting*/
+.interacting {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card-item {
+    background-color: rgba(30, 43, 75, 0.8);
+    padding: 0 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.interacting-item {
+    text-align: center;
+}
+
+.card-title-p {
+    color: rgb(188 100 223);
+}
+
+.card-body {
+    color: white;
+    text-align: center;
+}
+
+.doubleBtn {
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.createBtn {
+    margin-right: 12px;
+}
+
+.watchBtn {
+    margin-left: 12px;
 }
 
 
+/*End: User interacting/
 
 
 
-.footer {
-    color: white;
-}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
 
 
 form {

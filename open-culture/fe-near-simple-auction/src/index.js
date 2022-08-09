@@ -22,7 +22,7 @@ document.querySelector("#create-auction").onclick = async () => {
 };
 // Display the signed-out-flow container
 function signedOutFlow() {
-  document.querySelector("#signin").innerText = "Sign In";
+  document.querySelector("#signin").innerHTML = '<p class="ktext-sign">Sign In</p>';
   document.querySelector("#signout").disabled = true;
   document.querySelector("#mint").disabled = true;
   document.querySelector("#signin").onclick = login;
@@ -30,7 +30,7 @@ function signedOutFlow() {
 
 // Displaying the signed in flow container and fill in account-specific data
 function signedInFlow() {
-  document.querySelector("#signin").innerText = window.accountId;
+  document.querySelector("#signin").innerHTML = `<p class="ktext-sign">${window.accountId}</p>`;
   document.querySelector("#signout").onclick = logout;
   document.querySelector("#signin").onclick = () => {};
 }

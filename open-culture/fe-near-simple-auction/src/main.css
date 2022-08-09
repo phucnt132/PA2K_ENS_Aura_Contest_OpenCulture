@@ -8,6 +8,24 @@
     background-color: #1c233d;
 }
 
+
+/*Start: Common*/
+.color-header {
+    color: #C267E4;
+}
+
+.color-text {
+    color: #fff;
+}
+/*End: Common*/
+
+
+
+
+
+
+
+
 /*Start: Nav*/
 .homeBtn {
     background-color: #1c233d;
@@ -70,9 +88,41 @@
 
 
 /*Start: Footer*/
+.footer {
+    margin-top: 48px;
+    padding: 0 48px;
+}
+
+.footer-header {
+    font-size: 40px;
+}
 
 
+.social-icon i {
+    padding: 12px 14px;
+    color: rgb(125, 122, 216);
+    border-radius: 50%;
+}
 
+.social-icon i:hover {
+    color: rgb(125, 122, 216);
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item a{
+    display: block;
+    color: #fff;
+
+}
+
+.copyright {
+    opacity: 0.5;
+    padding: 48px 0;
+}
 /*End: Footer*/
 
 
@@ -95,6 +145,39 @@
 .footer {
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 form {

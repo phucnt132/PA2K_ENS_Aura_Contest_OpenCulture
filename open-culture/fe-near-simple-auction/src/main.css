@@ -133,20 +133,45 @@ html{
     margin: 32px 0;
 }
 
-
-
-
-
 /*End: Community*/
 
 
-
-
-
-
+/*Start: TopCreator*/
 .topCreator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
 }
+
+.topCreator-item {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(30,41,72,.7);
+    height: 84px;
+    margin: 12px 0;
+}
+
+.videoBtn {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.nftCreator {
+    color: #C267E4;
+    text-align: center;
+    font-size: 24px;
+}
+
+/*End: TopCreator*/
+
+
+
+
+
+
 
 
 

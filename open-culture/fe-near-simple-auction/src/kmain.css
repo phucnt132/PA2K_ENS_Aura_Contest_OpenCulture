@@ -526,3 +526,58 @@ padding-left: 2px;
     margin-bottom: unset;
     margin-bottom: 0px;
 }
+
+.content-aution {
+    display: flex;
+    justify-content: center;
+    
+}
+.form-control-k{
+    /* Frame 1 */
+
+box-sizing: border-box;
+
+
+width: 80%;
+height: 30px;
+
+
+border: 1px solid #E5E5E5;
+border-radius: 5px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.for-text-main-k{
+
+}
+.create-aution-button{
+    box-sizing: border-box;
+    width: 199px;
+    height: 40px;
+    filter: drop-shadow(0 4px 4px #00000040);
+    background: linear-gradient(85.76deg, #bfc4ee18 -105.02%, #c367e6 10.94%, #beceef00 121.57%);
+    border: 1px solid #000;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 433px;
+    left: 60px;
+    justify-self: center;
+}
+
+.create-aution-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aution-text{
+    color: #FFFFFF;
+    font-family: Space Grotesk;
+}

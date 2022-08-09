@@ -105,27 +105,28 @@ const renderMint = async () => {
 };
 
 const renderCreateAuction = async () => {
-  document.querySelector(".content").innerHTML = `
+  document.querySelector(".content").innerHTML = ``
+  document.querySelector(".content-aution").innerHTML = `
     <form id="create-auction-form">
     <div class="form-group">
-        <label for="tokenId">Token ID</label>
-        <input type="text" class="form-control" id="token-id" placeholder="Token ID">
+        <label class="for-text-main-k" for="tokenId">Token ID</label>
+        <input type="text" class="form-control-k" id="token-id" placeholder="Token ID">
     </div>
     <div class="form-group">
         <label for="start-price">Start Price</label>
-        <input type="text" class="form-control" id="start-price" placeholder="Start Price">
+        <input type="text" class="form-control-k" id="start-price" placeholder="Start Price">
     </div>
     <div class="form-group">
         <label for="start-time">Start Time</label>
-        <input type="datetime-local" class="form-control" id="start-time" placeholder="Start Time">
+        <input type="datetime-local" class="form-control-k" id="start-time" placeholder="Start Time">
     </div>
     <div class="form-group">
         <label for="end-time">End Time</label>
-        <input type="datetime-local" class="form-control" id="end-time" placeholder="End Time">
+        <input type="datetime-local" class="form-control-k" id="end-time" placeholder="End Time">
     </div>
 
 
-    <button type="submit" class="btn btn-primary">Create Auction</button>
+    <div class="create-aution-box"><button type="submit" class="create-aution-button"><div class="aution-text">Create Auction</div></button></div>
 </form>
     `;
   document

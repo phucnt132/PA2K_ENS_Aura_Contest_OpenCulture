@@ -61,6 +61,8 @@ line-height: 13px;
 color: #E5E5E5;
 }
 .kwelcome-text{
+    display: flex;
+    justify-self: center;
 width: 350px;
 font-family: 'Space Grotesk';
 font-style: normal;
@@ -338,7 +340,55 @@ color: #dddddd;
 
 
 }
+.vietnam-marker-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.content-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.vietnam-nft{
 
+width: 161px;
+height: 26px;
+
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.nft-martketplace{
+
+width: 90px;
+height: 13px;
+
+font-family: 'DM Mono';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+
+background: linear-gradient(180deg, #9C76B8 0%, rgba(156, 118, 184, 0) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+
+}
 .container-k{
     display: inline-grid;
     grid-template-columns: 300px 300px 300px;

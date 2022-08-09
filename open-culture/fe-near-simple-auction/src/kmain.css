@@ -57,6 +57,65 @@ line-height: 13px;
 /* identical to box height */
 
 color: #E5E5E5;
+}
+.kwelcome-text{
+width: 350px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+.okpen-text{
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+
+color: #C267E4;
+}
+.knft-text{
+
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+}
+.content-header{
+    width: 364px;
+height: 193px;
+padding-left: 40px;
+}
+.col-md-6 {
+    padding-top: 88px;
+}
+.text-information-k{
+  
+
+
+width: 300px;
+height: 40px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+
 
 
 

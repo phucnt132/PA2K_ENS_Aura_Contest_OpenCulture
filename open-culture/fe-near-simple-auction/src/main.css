@@ -7,10 +7,14 @@ html{
     background-color: #1c233d;
     
 }
+body{
+    display: flex;
+    align-items: center;
+}
 .container-fluid {
     background-color: #1c233d;
-   
-    width: 100vh;
+
+    width: 100%;
 }
 
 

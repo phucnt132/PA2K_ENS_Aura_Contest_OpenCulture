@@ -34,8 +34,9 @@ background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #
 border-radius: 5px;
 text-align: center;
 display: flex;
-justify-content: centet;
+justify-content: left;
 align-items: center;
+position: relative  
 
 }
 #sign-out-text{
@@ -175,7 +176,7 @@ border-radius: 4.89425px;
 }
 .card-title{
 /* Hue - Viet Nam */
-width: 98px;
+width: auto;
 height: 18px;
 font-family: 'Space Grotesk';
 font-style: normal;
@@ -283,23 +284,44 @@ color: #FFFFFF;
 }
 
 .card-k{
-    
+    align-self: center;
+    justify-self: center;
 
 width: 290px;
 height: auto;
 
-display: inline-flex;
-align-items: center;
+display: flex;
+align-content: center;
+justify-content: center;
 background: #30384D;
 border-radius: 5px;
 flex-direction: column;
 }
+.owner{
+
+width: 100%;
+height: 15px;
+display: flex;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 13px;
+padding-bottom: 8px;
+color: #FFFFFF;
+
+
+}
+
 .card-header-k{
     height: auto;
     width: 100%;
+    padding-left: 3px;
+    padding-top: 5px;
 }
 .card-description-k{
-text-align: center;
+text-align: left;
 width: auto;
 height: 20;
 left: calc(50% - 82px/2 - 72.5px);
@@ -312,7 +334,7 @@ font-size: 10px;
 line-height: 13px;
 /* identical to box height */
 
-color: #FFFFFF;
+color: #dddddd;
 
 
 }
@@ -323,20 +345,23 @@ color: #FFFFFF;
     column-gap: 20px;
     row-gap: 20px;
     width: unset;
-    width: 100vh;
+    width: 100%;
 }
 .card-img-k{
 padding-bottom: 10px;
 width: 250px;
 height: auto;
 border-radius: 5.131px;
+align-self: center;
+justify-self: center;
 
 }
 .token-id-k{
+
 width: 100%;
 text-align: left;
 width: auto;
-height: 20;
+height: auto;
 
 font-family: 'Space Grotesk';
 font-style: normal;
@@ -348,9 +373,81 @@ color: #FFFFFF;
 
 }
 
+.button-view-more-k{
+    /* Frame 17 */
+
+
+width: 141px;
+height: 33px;
+
+
+background: #30384D;
+border-radius: 5px;
+
+}
+.container-k{
+    width: 100%;
+}
 
 
 
+.block-container-k{
+    width: 100%;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
+}
+.ending-current{
+    display: flex;
+    justify-content: space-around;
+}
 
+.nft-ending-k{
+    color: unset;
+    color: #fff;
+    padding:unset;
+    padding:0px;
+    padding-bottom: 3px;
+}
+.author-detail-k{
+ 
+    max-width: 50px;
+    height: auto;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
 
+    
+    color: #FFFFFF;
+    
+    
+}
+.nft-owner-id{
+    /* Created by Hoang Khang */
+
+max-width: 300px;
+width: auto;
+height: auto;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+margin-top: -2px;
+color: #eeeeee;
+padding-left: 2px;
+
+}
+
+.card-title-k{
+    margin-bottom: unset;
+    margin-bottom: 0px;
+}
+.card-title{
+    margin-bottom: unset;
+    margin-bottom: 0px;
+}

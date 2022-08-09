@@ -172,17 +172,32 @@ const renderHome = async () => {
     let card = document.createElement("div");
     card.className = "card-k";
     card.innerHTML = `
-            <div class="card-header-k">
-                <p class="token-id-k" >Token ID: ${nft.token_id}</p>
-                <h3 class="card-title">${nft.metadata.title}</h3>
-                <p class="owner"> Owner ID: ${nft.owner_id}<p>
-                <p class="card-description-k">${nft.metadata.description}</p>
-            </div>
-            <div class="card-content">
-                <div class="card-img-k">
-                    <img  src="${data.image}" />
-                </div>
-            </div>
+          <div class="card-header-k">
+  <p class="token-id-k">Token ID: ${nft.token_id}</p>
+  <div class="card-title card-title-k">${nft.metadata.title}</div>
+  <div class="owner">
+    <p class="author-detail-k">Owner ID:</p>
+    <div class="nft-owner-id">${nft.owner_id}</div>
+  </div>
+  <p class="card-description-k">${nft.metadata.description}</p>
+</div>
+
+<div class="card-content">
+  <div class="card-img-k">
+    <img src="${data.image}" />
+  </div>
+  <div class="ending-current">
+    <div class="current-block-k">
+      <div class="text-detail-k nft-ending-k">Current Bid</div>
+      <div class="text-detail-number-k">0.90 ETH</div>
+    </div>
+    <div class="ending-block-k">
+      <div class="text-detail-k nft-ending-k">Ending In</div>
+      <div class="text-detail-number-k">10h 43m 26s</div>
+    </div>
+  </div>
+</div>
+
 `;
 
     document.querySelector(".content").appendChild(card);

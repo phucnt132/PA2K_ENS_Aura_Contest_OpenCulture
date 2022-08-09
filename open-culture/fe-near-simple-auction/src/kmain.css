@@ -23,12 +23,41 @@ color: #C267E5;
 .centerBtn{
     display: grid;
     width: 100%;
+
 }
-.signin,
-.signout{
+.ksign-button,
+.ksignout-button{
 width: 93px;
 height: 30px;
 background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
 border-radius: 5px;
+text-align: center;
+display: flex;
+justify-content: centet;
+align-items: center;
+
+}
+#sign-out-text{
+    padding-top: 3.5px;
+}
+.ktext-sign{
+
+
+/* Sign in */
+
+width: 100%;
+height: 13px;
+
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 13px;
+/* identical to box height */
+
+color: #E5E5E5;
+
+
 
 }

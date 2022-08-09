@@ -25,12 +25,6 @@ html{
 /*End: Common*/
 
 
-
-
-
-
-
-
 /*Start: Nav*/
 .homeBtn {
     background-color: #1c233d;
@@ -78,8 +72,6 @@ html{
 
 /*End: Nav*/
 
-
-
 /*Start: Header*/
 .header {
     color: white;
@@ -97,6 +89,7 @@ html{
 .footer {
     margin-top: 48px;
     padding: 0 48px;
+    color: white;
 }
 
 .footer-header {
@@ -119,7 +112,7 @@ html{
     text-align: center;
 }
 
-.footer-item a{
+.footer-item a {
     display: block;
     color: #fff;
 
@@ -132,6 +125,22 @@ html{
 /*End: Footer*/
 
 
+/*Start: Community*/
+.community {
+    background-color: rgba(30, 43, 75, 0.8);
+    color: white;
+    padding: 32px 0;
+    margin: 32px 0;
+}
+
+
+
+
+
+/*End: Community*/
+
+
+
 
 
 
@@ -139,21 +148,33 @@ html{
     color: black;
 }
 
-/* khang đã code o day */
-.community {
-    color: white;
-}
 
 
 
 
 
-.footer {
-    color: white;
-}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
 
 
 form {

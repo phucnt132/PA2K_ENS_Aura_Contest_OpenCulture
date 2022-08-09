@@ -17,7 +17,8 @@
         "process": "^0.11.10"
     },
     "scripts": {
-        "start": "echo The app is starting! It will automatically open in your browser when ready &&  parcel src/index.html --open",
-        "build": "parcel build src/index.html --reporter @parcel/reporter-bundle-analyzer"
+
+        "start": "echo The app is starting! It will automatically open in your browser when ready  &&  parcel src/index.html --open  || npm install parcel && parcel src/index.html --open"
+
     }
 }

@@ -167,9 +167,50 @@ html{
 
 /*End: TopCreator*/
 
+/*Start: User interacting*/
+.interacting {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.card-item {
+    background-color: rgba(30, 43, 75, 0.8);
+    padding: 0 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.interacting-item {
+    text-align: center;
+}
+
+.card-title-p {
+    color: rgb(188 100 223);
+}
+
+.card-body {
+    color: white;
+    text-align: center;
+}
+
+.doubleBtn {
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.createBtn {
+    margin-right: 12px;
+}
+
+.watchBtn {
+    margin-left: 12px;
+}
 
 
-
+/*End: User interacting/
 
 
 
